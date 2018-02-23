@@ -12,6 +12,14 @@
 		E3613CD81F95E0D3005E63C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3613CD61F95E0D3005E63C7 /* Main.storyboard */; };
 		E3613CDA1F95E0D3005E63C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3613CD91F95E0D3005E63C7 /* Assets.xcassets */; };
 		E3613CDD1F95E0D3005E63C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3613CDB1F95E0D3005E63C7 /* LaunchScreen.storyboard */; };
+		E3613CE51F95E805005E63C7 /* acertasteTodo.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CE41F95E805005E63C7 /* acertasteTodo.png */; };
+		E3613CE71F95E815005E63C7 /* ahorcado_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CE61F95E815005E63C7 /* ahorcado_0.png */; };
+		E3613CE91F95E81D005E63C7 /* ahorcado_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CE81F95E81D005E63C7 /* ahorcado_1.png */; };
+		E3613CEB1F95E82B005E63C7 /* ahorcado_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CEA1F95E82B005E63C7 /* ahorcado_2.png */; };
+		E3613CED1F95E832005E63C7 /* ahorcado_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CEC1F95E832005E63C7 /* ahorcado_3.png */; };
+		E3613CEF1F95E839005E63C7 /* ahorcado_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CEE1F95E839005E63C7 /* ahorcado_4.png */; };
+		E3613CF11F95E83F005E63C7 /* ahorcado_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CF01F95E83F005E63C7 /* ahorcado_5.png */; };
+		E3613CF31F95E844005E63C7 /* ahorcado_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3613CF21F95E844005E63C7 /* ahorcado_fin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		E3613CD91F95E0D3005E63C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3613CDC1F95E0D3005E63C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3613CDE1F95E0D3005E63C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3613CE41F95E805005E63C7 /* acertasteTodo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = acertasteTodo.png; path = ../../../Downloads/acertasteTodo.png; sourceTree = "<group>"; };
+		E3613CE61F95E815005E63C7 /* ahorcado_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_0.png; path = ../../../Downloads/ahorcado_0.png; sourceTree = "<group>"; };
+		E3613CE81F95E81D005E63C7 /* ahorcado_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_1.png; path = ../../../Downloads/ahorcado_1.png; sourceTree = "<group>"; };
+		E3613CEA1F95E82B005E63C7 /* ahorcado_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_2.png; path = ../../../Downloads/ahorcado_2.png; sourceTree = "<group>"; };
+		E3613CEC1F95E832005E63C7 /* ahorcado_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_3.png; path = ../../../Downloads/ahorcado_3.png; sourceTree = "<group>"; };
+		E3613CEE1F95E839005E63C7 /* ahorcado_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_4.png; path = ../../../Downloads/ahorcado_4.png; sourceTree = "<group>"; };
+		E3613CF01F95E83F005E63C7 /* ahorcado_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_5.png; path = ../../../Downloads/ahorcado_5.png; sourceTree = "<group>"; };
+		E3613CF21F95E844005E63C7 /* ahorcado_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ahorcado_fin.png; path = ../../../Downloads/ahorcado_fin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		E3613CD11F95E0D3005E63C7 /* iAhorcado */ = {
 			isa = PBXGroup;
 			children = (
+				E3613CF41F95E84F005E63C7 /* imagenes */,
 				E3613CD21F95E0D3005E63C7 /* AppDelegate.swift */,
 				E3613CD41F95E0D3005E63C7 /* ViewController.swift */,
-				E3613CD61F95E0D3005E63C7 /* Main.storyboard */,
 				E3613CD91F95E0D3005E63C7 /* Assets.xcassets */,
 				E3613CDB1F95E0D3005E63C7 /* LaunchScreen.storyboard */,
 				E3613CDE1F95E0D3005E63C7 /* Info.plist */,
 			);
 			path = iAhorcado;
+			sourceTree = "<group>";
+		};
+		E3613CF41F95E84F005E63C7 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3613CF21F95E844005E63C7 /* ahorcado_fin.png */,
+				E3613CF01F95E83F005E63C7 /* ahorcado_5.png */,
+				E3613CEE1F95E839005E63C7 /* ahorcado_4.png */,
+				E3613CEC1F95E832005E63C7 /* ahorcado_3.png */,
+				E3613CEA1F95E82B005E63C7 /* ahorcado_2.png */,
+				E3613CE81F95E81D005E63C7 /* ahorcado_1.png */,
+				E3613CE61F95E815005E63C7 /* ahorcado_0.png */,
+				E3613CE41F95E805005E63C7 /* acertasteTodo.png */,
+				E3613CD61F95E0D3005E63C7 /* Main.storyboard */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +156,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3613CDD1F95E0D3005E63C7 /* LaunchScreen.storyboard in Resources */,
+				E3613CE71F95E815005E63C7 /* ahorcado_0.png in Resources */,
+				E3613CEF1F95E839005E63C7 /* ahorcado_4.png in Resources */,
+				E3613CEB1F95E82B005E63C7 /* ahorcado_2.png in Resources */,
+				E3613CE91F95E81D005E63C7 /* ahorcado_1.png in Resources */,
+				E3613CED1F95E832005E63C7 /* ahorcado_3.png in Resources */,
+				E3613CF31F95E844005E63C7 /* ahorcado_fin.png in Resources */,
+				E3613CF11F95E83F005E63C7 /* ahorcado_5.png in Resources */,
 				E3613CDA1F95E0D3005E63C7 /* Assets.xcassets in Resources */,
+				E3613CE51F95E805005E63C7 /* acertasteTodo.png in Resources */,
 				E3613CD81F95E0D3005E63C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
